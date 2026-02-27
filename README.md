@@ -5,7 +5,7 @@ This project explores the intersection of trader psychology (Sentiment) and exec
 1. Quality Over Quantity (Trades per Day vs. Win Rate)
 Analysis of the relationship between trading frequency and success reveals a clear "Overtrading Trap":
 
-High-Precision Traders: Trades with a Win Rate > 0.8 are exclusively associated with low daily trade counts. This suggests that selective, patient trading leads to higher accuracy.
+<mark>**High-Precision Traders: Trades with a Win Rate > 0.8 are exclusively associated with low daily trade counts. This suggests that selective, patient trading leads to higher accuracy.**</mark>
 
 The "Retail" Cluster: A massive volume of trades is concentrated in the 0.3 to 0.6 win rate range. Most market participants fall into this medium-win-rate, high-frequency category.
 
@@ -21,9 +21,9 @@ The "Retail" Cluster: A massive volume of trades is concentrated in the 0.3 to 0
 2. Emotional Drivers (Sentiment Distribution)
 Sentiment data shows that "Greed" and "Fear" are the primary engines of market activity:
 
-Greed is the Catalyst: The Greed sentiment accounts for the highest number of trades, likely representing aggressive entries.
+**Greed is the Catalyst: The Greed sentiment accounts for the highest number of trades, likely representing aggressive entries.**
 
-Fear as an Exit Strategy: Fear shows the second-highest volume. This high frequency during fearful periods likely indicates "panic closing" or defensive position management.
+**Fear as an Exit Strategy: Fear shows the second-highest volume. This high frequency during fearful periods likely indicates "panic closing" or defensive position management.**
 
 Extreme Fatigue: "Extreme" sentiments (Extreme Fear/Greed) show significantly lower trade counts, suggesting that at emotional extremes, traders become paralyzed or "exhausted."
   <div align="center">
@@ -37,7 +37,8 @@ Extreme Fatigue: "Extreme" sentiments (Extreme Fear/Greed) show significantly lo
 3. User Activity Distribution (Trades per Day Histogram)
 The distribution of activity follows a power-law-like slope:
 
-Core User Base: The majority of users perform between 0-50 trades per day.
+<mark>Core User Base: The majority of users perform between 0-50 trades per day.
+</mark>
 
 Progressive Decay: There is a sharp, progressive decrease in the number of users as the trades-per-day count increases. This indicates that the "High Frequency" segment is a small, specialized subset of the total population.
 <div align="center">
@@ -51,7 +52,7 @@ Progressive Decay: There is a sharp, progressive decrease in the number of users
 4. Sentiment-Based Volatility (Trades vs. Sentiment)
 I analyzed the stability of trading behavior across different emotional states:
 
-Neutrality is Active: Surprisingly, Neutral sentiment has the highest average trade count, though it carries a huge standard deviation, indicating inconsistent behavior.
+Neutrality is Active: Surprisingly,<mark> Neutral sentiment has the highest average trade count,</mark> though it carries a huge standard deviation, indicating inconsistent behavior.
 
 Fearful Variance: Fear and Extreme Fear exhibit the largest standard deviations in trade counts. Under stress, trader behavior becomes highly unpredictable.
 
