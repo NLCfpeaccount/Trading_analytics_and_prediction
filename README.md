@@ -125,8 +125,10 @@ joined_data.zip         --->data used for exploratory data analysis.
 
 trainingdata.zip        --->data used for training the ML alogorithm.
 
-graphs_and_table/grouped_data3.csv
+[Folder](graphs_and_table) contains images and tables of EDA
 
-[grouped_data](graphs_and_table/grouped_data3.csv)
+[grouped_data_1](graphs_and_table/grouped_table.csv)
 
-Folder graphs_and_table contains images and tables of EDA
+[grouped_data_1](graphs_and_table/grouped_data2.csv)
+
+[grouped_data_3](graphs_and_table/grouped_data3.csv)
