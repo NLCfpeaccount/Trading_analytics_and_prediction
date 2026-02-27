@@ -8,6 +8,8 @@ Analysis of the relationship between trading frequency and success reveals a cle
 High-Precision Traders: Trades with a Win Rate > 0.8 are exclusively associated with low daily trade counts. This suggests that selective, patient trading leads to higher accuracy.
 
 The "Retail" Cluster: A massive volume of trades is concentrated in the 0.3 to 0.6 win rate range. Most market participants fall into this medium-win-rate, high-frequency category.
+![Win Rate vs Sentiment](graphs_and_table/scatter_plot(trades_VS_winrate).png)
+
 
 2. Emotional Drivers (Sentiment Distribution)
 Sentiment data shows that "Greed" and "Fear" are the primary engines of market activity:
