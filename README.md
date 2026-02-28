@@ -2,7 +2,7 @@
 This project explores the intersection of trader psychology (Sentiment) and execution performance (Win Rate, Volume, and Frequency). By analyzing trade logs, we identify behavioral archetypes and the correlation between emotional states and profitability.
 
 🚀 Key Insights from EDA
-1. Quality Over Quantity (Trades per Day vs. Win Rate)
+# 1. Quality Over Quantity (Trades per Day vs. Win Rate)
 Analysis of the relationship between trading frequency and success reveals a clear "Overtrading Trap":
 
 <mark>**High-Precision Traders: Trades with a Win Rate > 0.8 are exclusively associated with low daily trade counts. This suggests that selective, patient trading leads to higher accuracy.**</mark>
@@ -18,7 +18,7 @@ The "Retail" Cluster: A massive volume of trades is concentrated in the 0.3 to 0
 
 
 
-2. Emotional Drivers (Sentiment Distribution)
+# 2. Emotional Drivers (Sentiment Distribution)
 Sentiment data shows that "Greed" and "Fear" are the primary engines of market activity:
 
 **Greed is the Catalyst: The Greed sentiment accounts for the highest number of trades, likely representing aggressive entries.**
@@ -34,7 +34,7 @@ Extreme Fatigue: "Extreme" sentiments (Extreme Fear/Greed) show significantly lo
   <br>
 
 
-3. User Activity Distribution (Trades per Day Histogram)
+# 3. User Activity Distribution (Trades per Day Histogram)
 The distribution of activity follows a power-law-like slope:
 
 <mark>Core User Base: The majority of users perform between 0-50 trades per day.
@@ -49,7 +49,7 @@ Progressive Decay: There is a sharp, progressive decrease in the number of users
   <br>
 
   
-4. Sentiment-Based Volatility (Trades vs. Sentiment)
+# 4. Sentiment-Based Volatility (Trades vs. Sentiment)
 I analyzed the stability of trading behavior across different emotional states:
 
 Neutrality is Active: Surprisingly,<mark> Neutral sentiment has the highest average trade count,</mark> though it carries a huge standard deviation, indicating inconsistent behavior.
@@ -65,7 +65,7 @@ Greed is Stable: Conversely, Greed and Extreme Greed have lower standard deviati
   <br>
 
 
-5. Win Rate Consistency under Stress
+# 5. Win Rate Consistency under Stress
 How does emotion impact the likelihood of a win?
 
 The Volatility of Fear: Extreme Fear produces the highest variance in performance, with win rates swinging between 0.20 and 0.40.
@@ -78,7 +78,7 @@ The Baseline: All other sentiments (Neutral, Greed, Fear) gravitate toward a sta
   <br>
   <br>
 
-🛠 Tech Stack
+#🛠 Tech Stack
 Language: Python
 
 Data Manipulation: Pandas, NumPy
@@ -89,7 +89,7 @@ Visualization: Matplotlib, Seaborn
 🤖 Model Implementation Summary
 This project employs a two-stage machine learning pipeline to turn raw trade logs into actionable behavioral insights.
 
-1. Behavioral Clustering (Unsupervised)
+## 1. Behavioral Clustering (Unsupervised)
 We utilized K-Means Clustering to segment traders based on their execution rhythm (Volume vs. Frequency).
 
 Model: sklearn.cluster.KMeans
@@ -98,7 +98,7 @@ Features: Total Trade Volume, Daily Trade Frequency.
 
 Objective: Define "Trader Archetypes" (e.g., Scalpers, Whales, Retail).
 
-2. Profitability Classification (Supervised)
+## 2. Profitability Classification (Supervised)
 A Random Forest Classifier was trained to predict the "Profitability Bucket" (Loss, Neutral, Profit) of each trader.
 
 Model: sklearn.ensemble.RandomForestClassifier
