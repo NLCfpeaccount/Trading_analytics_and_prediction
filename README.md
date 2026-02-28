@@ -78,7 +78,7 @@ The Baseline: All other sentiments (Neutral, Greed, Fear) gravitate toward a sta
   <br>
   <br>
 
-#🛠 Tech Stack
+# 🛠 Tech Stack
 Language: Python
 
 Data Manipulation: Pandas, NumPy
